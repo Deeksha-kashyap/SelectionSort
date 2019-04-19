@@ -40,4 +40,12 @@ public class SelectionSort {
       array[one]=array[two];
       array[two]=temp;
   }
+
+    public static void main(String[] args) {
+        System.out.println("Enter the number of elements:");
+        Scanner scanner=new Scanner(System.in);
+        int n=scanner.nextInt();
+        SelectionSort s=new SelectionSort(n);
+        System.out.println("Enter the values for the array");
+    }
 }
