@@ -22,4 +22,17 @@ public class SelectionSort {
       }
       System.out.println(" ");
   }
+
+  public void sort(){
+      int min;
+      for (int i = 0; i <numElements-1 ; i++) {
+          min=1;
+          for (int j = 0; j < numElements; j++) {
+              if(array[j]<array[min]){
+                  min=j;
+                  swap(i,min);
+              }
+          }
+      }
+  }
 }
