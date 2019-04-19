@@ -47,5 +47,8 @@ public class SelectionSort {
         int n=scanner.nextInt();
         SelectionSort s=new SelectionSort(n);
         System.out.println("Enter the values for the array");
+        for (int i = 0; i < n; i++) {
+            s.insert(scanner.nextLong());
+        }
     }
 }
