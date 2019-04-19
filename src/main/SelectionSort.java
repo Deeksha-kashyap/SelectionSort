@@ -50,5 +50,10 @@ public class SelectionSort {
         for (int i = 0; i < n; i++) {
             s.insert(scanner.nextLong());
         }
+        System.out.println("The values before sorting");
+        s.display();
+        s.sort();
+        System.out.println("The values after sorting");
+        s.display();
     }
 }
