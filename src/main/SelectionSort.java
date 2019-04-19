@@ -35,4 +35,9 @@ public class SelectionSort {
           }
       }
   }
+  private void swap(int one,int two){
+      long temp=array[one];
+      array[one]=array[two];
+      array[two]=temp;
+  }
 }
